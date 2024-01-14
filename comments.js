@@ -33,4 +33,4 @@ http.createServer(function (request, response) {
 }).listen(port);
 
 // Print URL
-console.log('Server running at http://
+console.log('Server running at http://localhost:' + port + '/');
